@@ -1,0 +1,44 @@
+# ---- 编译产物 ----
+*.o
+*.obj
+*.exe
+a.out
+*.dSYM/
+cmake-build-*/
+
+# 注意：不要写 *.out —— 它会连 tests/cases/*.out（期望输出，必须入库）一起忽略。
+# 见下面"评测脚本的临时产物"里那几条更精确的规则。
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+Makefile
+
+# ---- 题目程序运行时生成的结果文件 ----
+# 这些只在练习/答案目录里出现，不能连带忽略 tests/cases/ 下的任何东西
+/practice/result.txt
+/practice/output.txt
+/practice/in.txt
+/answers/result.txt
+/answers/output.txt
+/answers/in.txt
+/result.txt
+/output.txt
+
+# ---- 编辑器 / IDE ----
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Python ----
+__pycache__/
+*.pyc
