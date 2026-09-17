@@ -104,14 +104,14 @@ winget install -e --id Microsoft.VisualStudioCode
 如果你是从 GitHub 下载的：
 
 1. 在仓库页面点绿色的 **Code** 按钮 → **Download ZIP**
-2. 解压到一个**不含中文和空格**的路径，比如 `C:\Users\你的用户名\c-starter`
+2. 解压到一个**不含中文和空格**的路径，比如 `C:\Users\你的用户名\nju-c-starter`
 
 ⚠️ **不要放在「桌面」或「下载」这种中文路径下**，也不要放在 OneDrive 同步目录里（会导致编译产物被同步、随机报错）。
 
 用命令行验证一下：
 
 ```powershell
-cd C:\Users\你的用户名\c-starter
+cd C:\Users\你的用户名\nju-c-starter
 dir
 ```
 
@@ -121,7 +121,7 @@ dir
 
 ## 5. 验证：跑通全套评测
 
-这是**最关键的一步**。在 `c-starter` 目录下输入：
+这是**最关键的一步**。在 `nju-c-starter` 目录下输入：
 
 ```powershell
 python tests\check.py --dir answers
@@ -245,7 +245,7 @@ $env:PYTHONUTF8=1
 
 ### 杀毒软件报毒
 
-MinGW 编译出来的 `.exe` 有时会被国产杀毒软件误报（因为没有签名）。把 `c-starter` 目录加进白名单。
+MinGW 编译出来的 `.exe` 有时会被国产杀毒软件误报（因为没有签名）。把 `nju-c-starter` 目录加进白名单。
 
 ---
 

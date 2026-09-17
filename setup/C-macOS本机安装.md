@@ -90,14 +90,14 @@ brew install --cask visual-studio-code
 如果你是从 GitHub 下载的：
 
 1. 在仓库页面点绿色的 **Code** → **Download ZIP**
-2. 解压，把文件夹放到你的用户目录下，比如 `/Users/你的用户名/c-starter`
+2. 解压，把文件夹放到你的用户目录下，比如 `/Users/你的用户名/nju-c-starter`
 
 ⚠️ **建议放在用户目录或 Documents 下**，不要放在 iCloud Drive 同步的桌面/文稿里（同步会拖慢编译、偶尔导致文件锁冲突）。
 
 在终端验证：
 
 ```bash
-cd ~/c-starter
+cd ~/nju-c-starter
 ls
 ```
 
@@ -107,7 +107,7 @@ ls
 
 ## 5. 验证：跑通全套评测
 
-**最关键的一步。** 在 `c-starter` 目录下：
+**最关键的一步。** 在 `nju-c-starter` 目录下：
 
 ```bash
 python3 tests/check.py --dir answers

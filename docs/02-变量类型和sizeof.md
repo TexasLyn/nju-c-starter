@@ -269,7 +269,7 @@ printf("%d\n", n);       // ✓
 写完跑一下：
 
 ```bash
-cd c-starter
+cd nju-c-starter
 python3 tests/check.py L02
 ```
 

@@ -54,7 +54,7 @@
 
 **有基础的人可以偷懒**：把这段话复制给能操作你电脑的 AI（Cursor、ZCode、Claude Code 等）：
 
-> 我在 `/path/to/c-starter` 这个目录里有一套 C 语言自学材料（有自己的 CMakeLists.txt 和 tests/check.py 评测脚本）。请帮我：
+> 我在 `/path/to/nju-c-starter` 这个目录里有一套 C 语言自学材料（有自己的 CMakeLists.txt 和 tests/check.py 评测脚本）。请帮我：
 > 1. 检查我的电脑上有没有可用的 C 编译器（clang 或 gcc），没有就告诉我怎么装
 > 2. 确认 `python3 tests/check.py --dir answers` 能跑通（应该 75 题全绿）
 > 3. 如果哪一步失败，把原因和修法讲清楚
@@ -68,7 +68,7 @@
 不管走哪条线，最后都应该能看到这个：
 
 ```bash
-cd c-starter
+cd nju-c-starter
 python3 tests/check.py --dir answers
 ```
 

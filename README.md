@@ -1,4 +1,4 @@
-# C 语言自学教材 · c-starter
+# C 语言自学教材 · nju-c-starter
 
 > 一套**能自学完**的 C 语言教程：15 课讲义 + 75 道练习 + 参考答案 + 一键评测脚本 + 可运行的 CMake 工程。
 > 从「完全没写过代码」到「能独立写出上机题」，全部在这里。
@@ -98,7 +98,7 @@ gcc -std=c11 -Wall -Wextra -g practice\L01_1.c -o L01_1.exe; .\L01_1.exe
 ## 目录说明
 
 ```
-c-starter/
+nju-c-starter/
 ├── README.md            ← 你在这里
 ├── LICENSE              MIT
 ├── CMakeLists.txt       CLion 工程配置（不用改）
